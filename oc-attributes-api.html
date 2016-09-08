@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`oc-attributes-api`
+Element to consume Ordercloud attributes API
+
+@demo demo/index.html 
+-->
+
+<dom-module id="oc-attributes-api">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'oc-attributes-api',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'oc-attributes-api',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
